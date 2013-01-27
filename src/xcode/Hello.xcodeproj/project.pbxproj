@@ -16,8 +16,6 @@
 		FFB7CA0B169FD25F007B0607 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FFB7CA0A169FD25F007B0607 /* Default.png */; };
 		FFB7CA0D169FD25F007B0607 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFB7CA0C169FD25F007B0607 /* Default@2x.png */; };
 		FFB7CA0F169FD25F007B0607 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFB7CA0E169FD25F007B0607 /* Default-568h@2x.png */; };
-		FFB7CA12169FD25F007B0607 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB7CA11169FD25F007B0607 /* ViewController.m */; };
-		FFB7CA4B169FDD49007B0607 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB7CA4A169FDD49007B0607 /* View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +32,6 @@
 		FFB7CA0A169FD25F007B0607 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FFB7CA0C169FD25F007B0607 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FFB7CA0E169FD25F007B0607 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		FFB7CA10169FD25F007B0607 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FFB7CA11169FD25F007B0607 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FFB7CA49169FDD49007B0607 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
-		FFB7CA4A169FDD49007B0607 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,11 +80,7 @@
 			children = (
 				FFB7CA07169FD25F007B0607 /* AppDelegate.h */,
 				FFB7CA08169FD25F007B0607 /* AppDelegate.m */,
-				FFB7CA10169FD25F007B0607 /* ViewController.h */,
-				FFB7CA11169FD25F007B0607 /* ViewController.m */,
 				FFB7C9FF169FD25F007B0607 /* Supporting Files */,
-				FFB7CA49169FDD49007B0607 /* View.h */,
-				FFB7CA4A169FDD49007B0607 /* View.m */,
 			);
 			path = Hello;
 			sourceTree = "<group>";
@@ -175,8 +165,6 @@
 			files = (
 				FFB7CA05169FD25F007B0607 /* main.m in Sources */,
 				FFB7CA09169FD25F007B0607 /* AppDelegate.m in Sources */,
-				FFB7CA12169FD25F007B0607 /* ViewController.m in Sources */,
-				FFB7CA4B169FDD49007B0607 /* View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +271,7 @@
 				FFB7CA1A169FD25F007B0607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
